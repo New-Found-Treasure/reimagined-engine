@@ -114,8 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    /* padding-top: 10px; */
-    /* padding-bottom: 30px; */
+
   }
 
   .site-logo {
@@ -126,7 +125,6 @@ body {
   .site-logo img {
     max-width: 170px;
   }
-
 
 
   div.scrollmenu {
@@ -162,9 +160,25 @@ div.scrollmenu a:active {
 }
 
 .article-1 {
-  flex: 2;
+  flex: 3;
   border-top: solid 1px white;
   padding-top: 30px;
+}
+
+.article-1 h1 {
+
+  font-family: 'museo_sans100';
+  font-size: 60px;
+
+}
+
+.sub-title {
+
+  font-family: 'museo_sans100';
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
 }
 
@@ -173,3 +187,15 @@ div.scrollmenu a:active {
   padding-top: 30px;
 }
 
+.article-2 h3 {
+  font-family: 'museo_sans100';
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.article-2 h4 {
+
+  font-family: 'museo_slab500';
+  font-size: 20px;
+  padding-bottom: 10px;
+}
