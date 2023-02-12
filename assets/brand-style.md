@@ -1,15 +1,11 @@
 # Brand Style Details
 ## Colors
 
-Ruby Red
-#AD3335
+Ruby Red: #AD3335
 
-White
-#ffffff
+White: #ffffff
 
-Black
-
-#000000
+Black: #000000
 
 
 ## Fonts
