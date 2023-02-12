@@ -1,3 +1,110 @@
+/* Fonts  */
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('fonts/Quicksand/quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/Quicksand/quicksand-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('museo_slab_500-webfont.woff2') format('woff2'),
+         url('museo_slab_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo300';
+    src: url('museo300-regular-webfont.woff2') format('woff2'),
+         url('museo300-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'museo700';
+    src: url('museo700-regular-webfont.woff2') format('woff2'),
+         url('museo700-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'museo_sans500_italic';
+    src: url('museosans_500_italic-webfont.woff2') format('woff2'),
+         url('museosans_500_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('museosans_500-webfont.woff2') format('woff2'),
+         url('museosans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans700';
+    src: url('museosans_700-webfont.woff2') format('woff2'),
+         url('museosans_700-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans100';
+    src: url('museosans-100-webfont.woff2') format('woff2'),
+         url('museosans-100-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_sans300';
+    src: url('museosans-300-webfont.woff2') format('woff2'),
+         url('museosans-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('museo_slab_500-webfont.woff2') format('woff2'),
+         url('museo_slab_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -36,6 +143,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: #AD3335;
+  
 }
 
 /* A elements that don't have a class get default styles */
