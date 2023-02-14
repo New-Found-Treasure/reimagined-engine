@@ -1,11 +1,24 @@
-# Brand Style Details
+# Site Style Guide
+
+Layout
+The designs are created to have the folloeing width:
+- Mobile 375px
+- Desktop 1440px
 ## Colors
 
-Ruby Red: #AD3335
+Primary Color:
+Ruby Red: 
+hsl(359, 70%, 40%)
 
-White: #ffffff
+Accent:
+hsl(13, 65%, 50%)
 
-Black: #000000
+hsl(124, 16%, 36%)
+
+Neutral:
+hsl(39, 68%, 84%);
+
+
 
 
 ## Fonts
