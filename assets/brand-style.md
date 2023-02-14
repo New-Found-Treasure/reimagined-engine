@@ -1,21 +1,25 @@
 # Site Style Guide
 
-Layout
+## Layout
+
 The designs are created to have the folloeing width:
 - Mobile 375px
 - Desktop 1440px
+
 ## Colors
 
 Primary Color:
-Ruby Red: 
+ 
 hsl(359, 70%, 40%)
 
 Accent:
+
 hsl(13, 65%, 50%)
 
 hsl(124, 16%, 36%)
 
 Neutral:
+
 hsl(39, 68%, 84%);
 
 
