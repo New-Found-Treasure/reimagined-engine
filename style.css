@@ -80,13 +80,13 @@ font-style: normal;
 --clr--accent-100: hsl(0, 33%, 50%);
 
 --clr-neutral-100:   hsl(34, 30%, 82%);
---clr-neutral-900;  hsl(39, 68%, 84%);
+--clr-neutral-900:  hsl(39, 68%, 84%);
 
---ff-primary: 'museo_sans100', sans-serif;
---ff-body; 'quicksandlight', sans-serif; 
+--ff-primary:'museo_sans100', sans-serif;
+--ff-body:'quicksandlight', sans-serif; 
 
 --ff-body: var(--ff-body);
---ff-headind: var(-ff--primary)
+--ff-heading: var(-ff--primary);
 
 --fw-regular: 100;
 --fw-semi-bold: 500;
@@ -94,10 +94,28 @@ font-style: normal;
 
 --fs-100: 1em;
 --fs-300: 1.125em;
---fs-500: 1.500em;
---fs-700: 4em;
+--fs-500: 1.250em;
+--fs-700: 2em;
+
+--fs-body: var(--fs-100);
+--fs-primary-heading: var(--fs-700);
+--fs-secondary-heading: var(--fs-300);
+--fs-nav: var(--fs-500);
+--fs-button: var(--fs-300);
 }
 
+@media  (min-width: 50em) {
+  :root {
+    --fs-100: 1em;
+    --fs-700: 2.5em;
+    --fs-500: 1.500em;
+
+    --fs-body: var(--fs-100);
+    --fs-primary-heading: var(--fs-700);
+    --fs-secondary-heading: var(--fs-500);
+    --fs-nav: var(--fs-300);
+  }
+}
 /* Reset Settings */
 
 /* Box sizing rules */
@@ -166,4 +184,67 @@ html:focus-within {
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
 }
+}
+
+/* Utility classes */
+
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+.text-primary-100 {
+  color: var(--clr-primary-10);
+}
+
+.text-accent-400 {
+  color: var(--clr-accent-400);
+}
+
+.text-accent-100 {
+  color: var(--clr-accent-100);
+}
+
+.text-neutral-100 {
+  color: var(--clr-neutral-100);
+}
+
+.text-neutral-900 {
+  color: var(--clr-neutral-900);
+}
+
+
+.bg-primary-400 {
+  background-color: var(--clr-primary-400);
+}
+
+.bg-primary-100 {
+  background-color: var(--clr-primary-10);
+}
+
+.bg-accent-400 {
+  background-color: var(--clr-accent-400);
+}
+
+.bg-accent-100 {
+  background-color: var(--clr-accent-100);
+}
+
+.bg-neutral-100 {
+  background-color: var(--clr-neutral-100);
+}
+
+.bg-neutral-900 {
+  background-color: var(--clr-neutral-900);
+}
+
+.fw-bold { font-weight: var(--fw-bold);}
+.fw-semi-bold {font-weight: var(--fw-semi-bold);}
+.fw-regular {font-weight: var(--fw-regular);}
+
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+}
+
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
 }
